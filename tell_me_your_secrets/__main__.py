@@ -305,9 +305,8 @@ def run_service() -> Tuple[bool,bool]:
     
 
 if __name__ == '__main__':
-    has_matches,exit_val = run_service()
+    has_matches, exit_val = run_service()
     if has_matches and exit_val:
         exit(1)
 
-    exit(0)
 # $ Move Signature.go and Match.go into this to make this work. 
